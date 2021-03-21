@@ -16,6 +16,7 @@ export default function HomePage(props) {
       </Head>
       <Hero />
       <FeaturedPosts posts={props.posts} />
+      <p>Environment: {process.env.CURRENT_ENV}</p>
     </Fragment>
   );
 }
